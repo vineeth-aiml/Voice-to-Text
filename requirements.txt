@@ -1,0 +1,28 @@
+# === OFFLINE SPEECH RECOGNITION ===
+vosk==0.3.45
+whispercpp==0.0.17          # The latest version that works on Windows
+
+# === AUDIO PROCESSING ===
+pydub==0.25.1
+sounddevice==0.4.6
+numpy==1.26.4
+scipy==1.11.4
+
+# === STREAMLIT UI ===
+streamlit==1.36.0
+streamlit-webrtc==0.47.1
+
+# === UTILITIES ===
+python-dotenv==1.0.1
+requests==2.32.3
+tqdm==4.66.2
+loguru==0.7.2
+
+# === EXPORT OPTIONS ===
+pandas==2.2.2
+
+# === TOKENIZER (required by whispercpp) ===
+tokenizers==0.13.3
+
+# === AUDIO IO ===
+soundfile==0.12.1
